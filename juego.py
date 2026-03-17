@@ -4,7 +4,7 @@ from nave import Nave
 class Juego:
     def __init__(self):
         self.tablero = Tablero()
-        self.lanzar_ataque(1, 1)
+        self.lanzar_ataque(1, 8)
         self.lanzar_ataque(5, 2)
         self.lanzar_ataque(9, 1)
         self.lanzar_ataque(1, 4)

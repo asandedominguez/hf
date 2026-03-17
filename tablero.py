@@ -4,9 +4,9 @@ class Tablero:
     def __init__(self, tamano=10):
         self.tamano = tamano
 
-        self.AGUA = "Agua"
-        self.TOCADO = "Tocado"
-        self.HUNDIDO = "Hundido"
+        self.AGUA = 0
+        self.TOCADO = 1
+        self.HUNDIDO = 2
 
         por1 = Nave("Enterprise", "portaaviones", 5)
 
