@@ -9,6 +9,9 @@ class Juego:
         self.lanzar_ataque(9, 1)
         self.lanzar_ataque(1, 4)
         self.lanzar_ataque(1, 5)
+        self.lanzar_ataque(1, 3)
+        self.lanzar_ataque(1, 2)
+        self.lanzar_ataque(1, 1)
 
     def mostrar_resultado(self, resultado):
         if resultado == 0:
