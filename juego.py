@@ -1,5 +1,4 @@
 from tablero import Tablero
-from nave import Nave
 
 class Juego:
     def __init__(self):
